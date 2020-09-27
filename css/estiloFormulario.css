@@ -1,0 +1,201 @@
+h1{
+    font-family: cursive;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+}
+body{
+    position: relative;
+   scrollbar:no;
+}
+.reg
+{
+    width: 20%;
+    margin: 10px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border: solid 7px #4371CD;  
+     position: relative;
+    left: 200px;
+    border-radius: 30px;
+    background: #8395B7;
+  }
+.regAl
+{
+    width: 20%;
+    margin: 10px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    position: relative;
+    left: 200px;
+    border-radius: 30px;
+    background: #f3d801;
+
+  }
+
+.segundo{
+    width: 40%;
+    margin: 10px;
+    padding: 20px;
+    border: solid 7px #4371CD;  
+    border-radius: 30px;
+    background: #8395B7;
+    
+    position: relative;
+    left: 700px;
+    bottom: 450px;
+    
+}
+.listAl{
+    width: 40%;
+    margin: 10px;
+    padding: 20px;
+   
+    border-radius: 30px;
+    background: #f3d801;
+    
+    position: relative;
+    left: 700px;
+    bottom: 330px;
+    
+}
+.regFa
+{
+    width: 20%;
+    margin: 10px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    position: relative;
+    left: 200px;
+    border-radius: 30px;
+    background: #70eb4f;
+  }
+
+.listFa{
+    width: 40%;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 30px;
+    background: #70eb4f;
+    
+    position: relative;
+    left: 700px;
+    bottom: 310px;
+    
+}
+
+.regEm
+{
+    width: 20%;
+    margin: 10px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    position: relative;
+    left: 200px;
+    border-radius: 30px;
+    background: #c8a4f2;
+  }
+
+.listEm{
+    width: 40%;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 30px;
+    background: #c8a4f2;
+    
+    position: relative;
+    left: 700px;
+    bottom: 370px;
+    
+}
+
+
+
+label{
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: 600;
+    margin: 4px;
+    padding: 4px;
+    display: block;
+    width: 100%;
+    color: white;
+}
+input {
+   
+    width: 100%;
+    padding: 4px;
+    box-sizing: border-box;
+    border: 5px solid bc5fe5;
+     border-radius: 30px;
+}
+
+input:focus{
+    border: 5px solid #fffff;
+ }
+
+select{
+   margin-bottom: 8px;
+}
+
+input[type="reset"]{
+    margin-bottom: 15px;
+    background: #555;
+    color: #fff;
+    font-family: cursive;
+    border-radius: 
+}
+
+input[type="reset"]:hover{
+    background: #777;
+    cursor: pointer;
+}
+
+input[type="submit"]{
+    font-size: 20px;
+    margin-bottom: 0px;
+    background: #555;
+    color: #fff;
+    font-family: cursive;
+    border-radius: 
+}
+
+input[type="submit"]:hover{
+    background:  #777;
+    cursor: pointer;
+}
+
+
+
+body{
+   
+    background-image: url(../img/wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+select#soflow-color {
+   color: #fff;
+    font-family: cursive;
+   background-color: #4371CD;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 30px;
+   padding-left: 15px;
+    width: 180px;
+    height: 30px;
+}
+
+select#soflow-color option:hover {
+    box-shadow: 0 0 10px 100px #1882A8 inset;
+}
+

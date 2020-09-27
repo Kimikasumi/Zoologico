@@ -1,0 +1,67 @@
+<style>
+* {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: cursive;
+    
+    
+}
+
+/* Style tab links */
+.tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 20%;
+    font-family: cursive;
+        font-weight: 600;
+    text-align: center;
+}
+
+.tablink:hover {
+    background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+    color: white;
+    display: none;
+    padding: 100px 20px;
+    height: 100%;
+}
+
+h1{
+    
+        font-family: cursive;
+        font-weight: 600;
+    text-align: center;
+}
+
+iframe{
+    
+    border:none;
+    scrolling="no";
+   overflow:hidden
+    height:100%; 
+    width:100%;
+  
+
+    
+}
+
+#Home {background-image: url("fondo.jpg");   background-repeat: no-repeat;
+    background-attachment: fixed;
+    }
+#Animales {background-color: royalblue;}
+#Familias {background-color: limegreen;}
+#Alimentos {background-color: orange;}
+#Empleados {background-color: mediumpurple;}
+</style>
